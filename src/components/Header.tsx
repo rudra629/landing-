@@ -16,17 +16,17 @@ const Header = () => {
               <span className="text-xs font-medium text-muted-foreground uppercase tracking-wide">Sponsored by</span>
               <div className="flex items-center gap-2">
                 <span className="text-lg font-bold text-foreground">-Star Security Services-</span>
-                {/* <img 
+                <img 
                   src="/star-security-logo.png" 
                   alt="Star Security Services Logo" 
-                  className="h-8 w-auto"
-                /> */}
+                  className="h-12 w-auto"
+                />
               </div>
             </div>
           </div>
           
           <Button variant="hero" size="lg">
-            Developed🤙🤙
+            Developed
           </Button>
         </div>
       </div>

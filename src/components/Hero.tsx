@@ -13,13 +13,13 @@ const Hero = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8 animate-fade-in">
             <div className="inline-flex items-center gap-3">
-              <span className="px-4 py-2 bg-secondary text-secondary-foreground border-3 border-border rounded-full text-sm font-semibold">
+              <span className="px-6 py-3 bg-secondary text-secondary-foreground border-3 border-border rounded-full text-base font-semibold">
                 Building for Codecratz
               </span>
               <img 
                 src="https://apvcouncil.in/codecratz/2.png" 
                 alt="Codecratz Logo" 
-                className="h-10 w-auto"
+                className="h-14 w-auto"
               />
             </div>
             
@@ -39,7 +39,7 @@ const Hero = () => {
             
             <div className="flex flex-wrap gap-4">
               <Button variant="hero" size="lg">
-                Developed🤙🤙
+                Developed
               </Button>
               <a 
                 href="https://www.figma.com/design/s4op4cFuUuEeLtxVuRRsHx/Untitled?node-id=0-1&p=f" 
